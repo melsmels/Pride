@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Samón",
+        "username": "Sam",
+        "server": "LA2",
+        "url": "/player/Sam",
+        "line": "top",
+        "line_img": "/img/top_icon.webp",
+        "other_accounts": [
+            {
+                "username": "1P Sam",
+                "url": "/player/1P%20Sam"
+            }
+        ]
+    },
+    {
+        "name": "Mels",
+        "username": "Mels",
+        "server": "LA2",
+        "url": "/player/Mels",
+        "line": "jungla",
+        "line_img": "/img/jungle_icon.webp",
+        "other_accounts": [
+            {
+                "username": "1P Mels",
+                "url": "/player/1P%20Mels"
+            }
+        ]
+    },
+    {
+        "name": "Yoel",
+        "username": "Zuo",
+        "server": "LA2",
+        "url": "/player/Zuo",
+        "line": "mid",
+        "line_img": "/img/mid_icon.webp",
+        "other_accounts": [
+            {
+                "username": "1P Yours",
+                "url": "/player/1P%20Yours"
+            }
+        ]
+    },
+    {
+        "name": "Pepo",
+        "username": "MissMakima",
+        "server": "LA2",
+        "url": "/player/MissMakima",
+        "line": "adc",
+        "line_img": "/img/adc_icon.webp",
+        "other_accounts": [
+            {
+                "username": "1P Miss",
+                "url": "/player/1P%20Miss"
+            }
+        ]
+    },
+    {
+        "name": "Luks",
+        "username": "Minibros",
+        "server": "LA2",
+        "url": "/player/minibros",
+        "line": "supp",
+        "line_img": "/img/support_icon.webp",
+        "other_accounts": []
+    }
+]

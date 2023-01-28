@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
         
-      <div className="h-screen bg-black flex flex-col items-center justify-center gap-4">
+      <div className="h-screen flex flex-col items-center justify-center gap-4">
 
         <Logo wd={200} h={200}></Logo>
         <Searchbar placeholder={"Buscar player"} w={"350px"} h={"40px"}></Searchbar>
