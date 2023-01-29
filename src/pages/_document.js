@@ -6,7 +6,7 @@ export default function Document() {
       <Head> 
       <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"/>
       </Head>
-      <body className='bg-main'>
+      <body className='bg-bg'>
         <Main />
         <NextScript />
       </body>
