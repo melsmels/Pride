@@ -3,6 +3,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import teamData from '../../json/team.json'
+import Boton from '@/components/Boton';
 
 export default function Team() {
 
@@ -29,9 +30,7 @@ export default function Team() {
                 </div>
                 <div className='flex justify-center'>
                     <Link href={'/team/matches'}>
-                        <div className='flex justify-center uppercase py-2 px-5 border border-main hover:bg-main cursor-pointer rounded text-main hover:text-white font-bold transition-colors'>
-                            <span>ver partidas del equipo</span>
-                        </div>
+                        <Boton></Boton>
                     </Link>
                 </div>
             </div>
