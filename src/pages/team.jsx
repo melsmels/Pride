@@ -15,6 +15,7 @@ export default function Team() {
             for(let i = 0; i < data.length; i++) {
                 teamData[i].profileIconId = data[i].profileIconId
             }
+            console.log(data);
             setPlayers(data);
         }
         fetchTeam()
@@ -30,7 +31,7 @@ export default function Team() {
                 </div>
                 <div className='flex justify-center'>
                     <Link href={'/team/matches'}>
-                        <Boton></Boton>
+                        <Boton>Ver partidas del team</Boton>
                     </Link>
                 </div>
             </div>

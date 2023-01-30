@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "13.1.4",
     "axios": "^1.2.5",
+    "moment": "^2.29.4",
     "next": "13.1.4",
     "op.gg-api": "^2.0.5-alpha",
     "react": "18.2.0",
