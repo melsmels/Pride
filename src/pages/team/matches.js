@@ -12,8 +12,6 @@ import Collapsible from "@/components/Collapsible/Collapsible";
 
 export default function MatchesPage() {
 
-    const [ matches, setMatches ] = useState([]);
-
     async function fetchMatches(puuid) {
         const { data } = await axios.post('/api/playerMatches', { puuid });
         const matches = data.filter(match => {
@@ -27,22 +25,18 @@ export default function MatchesPage() {
     }
 
     useEffect(() => {
-        for(let i = 0; i <= 3; i++) {
-            setMatches(current => current.concat([games[i]]))
-        }
         // fetchMatches(teamPUUID[1]);
     }, [])
-    console.log(matches)
 
     return (
-        <div className="flex flex-col justify-center gap-5 text-zinc-200 h-screen">
+        <div className="flex flex-col justify-center gap-5 text-zinc-200">
             <div className="flex flex-col-reverse gap-4 items-center">
                 <div className="text-4xl uppercase">Historial de partidas</div>
                 <Logo wd={120} h={120} />
             </div>
-            <div className="flex flex-col gap-5 w-fit mx-auto">
-                {matches.map(game => (
-                    <Collapsible game={game} />
+            <div className="flex flex-col gap-5 min-w-[62rem] mx-auto">
+                {games.map(game => (
+                    <Collapsible key={Math.random().toFixed(6) * 100000} game={game} />
                 ))}
             </div>
             <div>

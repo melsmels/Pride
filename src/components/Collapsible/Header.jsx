@@ -61,24 +61,24 @@ export default function CollapsibleHeader({props}) {
                     <div>{`${gameVersion.split('.')[0]}.${gameVersion.split('.')[1]}`}</div>
                 </div>
                 <div className="flex items-center gap-5">
-                    <div className='flex items-center gap-4'>
+                    <div className='flex items-center justify-between w-full gap-4'>
                         <div className='flex items-center gap-2'>
                             { participants.map((participant, index) => (
-                                index < 5 && <Image className='rounded-full border-[3px] border-zinc-700' src={`https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/${participant.championName}.png`} width={50} height={50} alt={`${participant.championName} Image`} />
+                                index < 5 && <Image key={Math.random().toFixed(6) * 100000} className='rounded-full border-[3px] border-zinc-700' src={`https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/${participant.championName}.png`} width={60} height={60} alt={`${participant.championName} Image`} />
                             ))}
                         </div>
                         <div className='flex items-center gap-3'>
-                            <div className={`${teamOneKills > teamTwoKills ? 'text-green-500' : 'text-red-600'} font-bold text-2xl`}>{ teamOneKills }</div>
-                            <div className='uppercase text-lg text-zinc-900 font-black'>vs</div>
-                            <div className={`${teamTwoKills > teamOneKills ? 'text-green-500' : 'text-red-600'} font-bold text-2xl`}>{ teamTwoKills }</div>
+                            <div className={`${teamOneKills > teamTwoKills ? 'text-green-500' : 'text-red-600'} font-bold text-4xl`}>{ teamOneKills }</div>
+                            <div className='uppercase text-2xl text-zinc-900 font-black'>vs</div>
+                            <div className={`${teamTwoKills > teamOneKills ? 'text-green-500' : 'text-red-600'} font-bold text-4xl`}>{ teamTwoKills }</div>
                         </div>
                         <div className='flex items-center gap-2'>
                             { participants.map((participant, index) => (
-                                index > 4 && <Image className='rounded-full border-[3px] border-zinc-700' src={`https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/${participant.championName}.png`} width={50} height={50} alt={`${participant.championName} Image`} />
+                                index > 4 && <Image key={Math.random().toFixed(6) * 100000} className='rounded-full border-[3px] border-zinc-700' src={`https://ddragon.leagueoflegends.com/cdn/13.1.1/img/champion/${participant.championName}.png`} width={60} height={60} alt={`${participant.championName} Image`} />
                             ))}
                         </div>
                     </div>
-                    <div className="text-lg"><i class="fa-regular fa-chevron-down"></i></div>
+                    <div className="text-lg"><i className="fa-regular fa-chevron-down"></i></div>
                 </div>
             </div>
             { showBody && (

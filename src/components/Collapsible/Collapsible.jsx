@@ -11,8 +11,8 @@ export default function GameCollapse({game}) {
     const { gameCreation, gameVersion, teams, participants } = game.info;
 
     return (
-        <>
+        <div className=''>
             <Header props={{ gameCreation, gameVersion, teams, participants, game }} />
-        </>
+        </div>
     )
 }
