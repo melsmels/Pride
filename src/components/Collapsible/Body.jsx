@@ -52,7 +52,7 @@ export default function CollapsibleBody({ game }) {
                 </div>
                 <div className="flex items-center gap-2 text-sm text-zinc-400">
                     <div className="flex items-center gap-1">
-                        <Image src={'/img/objectives/baron.png'} width={15} height={15} alt={'Objective Image'} />
+                        <Image src={'/img/objectives/torre.png'} width={15} height={15} alt={'Objective Image'} />
                         <span>{teamOne.objectives.tower.kills}</span>
                     </div>
                     <div className="flex items-center gap-1">
@@ -78,7 +78,7 @@ export default function CollapsibleBody({ game }) {
                 </div>
                 <div className="flex items-center gap-2 text-sm text-zinc-400">
                     <div className="flex items-center gap-1">
-                        <Image src={'/img/objectives/baron.png'} width={15} height={15} alt={'Objective Image'} />
+                        <Image src={'/img/objectives/torre.png'} width={15} height={15} alt={'Objective Image'} />
                         <span>{teamTwo.objectives.tower.kills}</span>
                     </div>
                     <div className="flex items-center gap-1">
