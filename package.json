@@ -15,7 +15,8 @@
     "next": "13.1.4",
     "op.gg-api": "^2.0.5-alpha",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-tooltip": "^5.7.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

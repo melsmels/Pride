@@ -29,17 +29,29 @@ export default function MatchesPage() {
     }, [])
 
     return (
-        <div className="flex flex-col justify-center gap-5 text-zinc-200">
+        <div className="flex flex-col justify-center gap-5 text-zinc-200 py-5">
             <div className="flex flex-col-reverse gap-4 items-center">
                 <div className="text-4xl uppercase">Historial de partidas</div>
                 <Logo wd={120} h={120} />
+            </div>
+            <div className="flex justify-center">
+                <div className="flex flex-col items-center gap-1">
+                    <div className="flex items-center gap-[1px] text-2xl font-bold">
+                        <span className="text-green-600">100</span>
+                        <span>-</span>
+                        <span className="text-red-600">20</span>
+                    </div>
+                    <div className="text-2xl font-bold">
+                        <span className="uppercase text-violet-500">{`${'80%'} winrate`}</span>
+                    </div>
+                </div>
             </div>
             <div className="flex flex-col gap-5 min-w-[62rem] mx-auto">
                 {games.map(game => (
                     <Collapsible key={Math.random().toFixed(6) * 100000} game={game} />
                 ))}
             </div>
-            <div>
+            <div className="w-[10rem] mx-auto">
                 <Boton>Ver mas</Boton>
             </div>
         </div>
