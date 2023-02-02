@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Sofia Sans', sans-serif;
+    color: rgb(212, 212, 216);
 }
 
 img {
@@ -14,6 +15,23 @@ img {
     -moz-user-drag: none;
     -o-user-drag: none;
     user-drag: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: rgb(93, 93, 93);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(73, 73, 73);
 }
 
 .from-opacity {
