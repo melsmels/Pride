@@ -1,0 +1,57 @@
+[
+    {
+        "id": "drwDp-XbF5JOhhfGa9fON3MSsJcB03By2xLY83zgY12M3hVERth8baX_wQ",
+        "accountId": "69LrKsnFkqgwx4GG8HH8t4biZEfHVY-MA5UYgJY-erE2TN7oRfBRB5J_",
+        "puuid": "IkZzi3_79goLhCEVIWsoNG7OGnSm8ts_sQ20Bj5gGPXmcO6KcmeMIazy4JyIcXz3zlnP0kmfsqA8oQ",
+        "name": "1P Sam",
+        "profileIconId": 22,
+        "revisionDate": 1676512590000,
+        "summonerLevel": 33,
+        "line": "top",
+        "line_img": "/img/top_icon.webp"
+    },
+    {
+        "id": "E-4ANSgozGYJ2HUsb_1v969TpqAaDPleADApoDyTycn6SugxQDVwhJf45A",
+        "accountId": "MWVg4PlnSaGaNfGQ9kceNDWKRiz30q8Ctm3XgrFxu_9abWbeboQlklO2",
+        "puuid": "WoGDqTW7ITjdr1DG_enCbaa9gSACtWXzJAgM_ivkxSN6M8Rgm0ZZserITTnXIT6h_bqZuEpZ9nBoFg",
+        "name": "1P Mels",
+        "profileIconId": 907,
+        "revisionDate": 1676827739000,
+        "summonerLevel": 34,
+        "line": "jungla",
+        "line_img": "/img/jungle_icon.webp"
+    },
+    {
+        "id": "Y-DOXCUuajyy4PZDPPE5rp_kWncqVVRmZp4it4hQFqVy-6qXxfP2qPAZKA",
+        "accountId": "p14J1_x55Koqm_HOXFx__NtR14Fsfq7_G5b1fZAjPu1oZ7PIl5i0u65O",
+        "puuid": "UnmVQPI4JrKsA1R8hj6ROpA7eZhBcXyQILgvXWHIRha7Afyt0lSBe1oidj-33XuTHUNBWyFRHkLN3A",
+        "name": "1P Yours",
+        "profileIconId": 3018,
+        "revisionDate": 1676740277000,
+        "summonerLevel": 35,
+        "line": "mid",
+        "line_img": "/img/mid_icon.webp"
+    },
+    {
+        "id": "DKToLBcmIJwTZpZIhLBu_-xhOytjkVSMGUT5F_RQwAWntE6qsIck5zIB6A",
+        "accountId": "QV63b475AZPANOW5oQBXqgSmMnbN_jzEe9MrZ9RcKd4V3OHzkTEkVCu7",
+        "puuid": "C4a5CQ5TylUhgAcUIY2te3NI2VoIh94VxPtv1NO0tnlmPJbdb8rEV5Xt7bL6FRGua0i-VHg-GjWkwA",
+        "name": "1P Miss",
+        "profileIconId": 907,
+        "revisionDate": 1676512590000,
+        "summonerLevel": 32,
+        "line": "adc",
+        "line_img": "/img/adc_icon.webp"
+    },
+    {
+        "id": "SLPEFQxhaAyx3XTGa_UsH4WbrY8d6ao-zqI8ZJZyh2n2Fu0",
+        "accountId": "xxbzi5bFhPZ7qABX3w1Vl2SNB6Y1gREnKyADpPBmEU5YtVd8ULsVgT6w",
+        "puuid": "Vv3uouNkmhChoalMIWpp3gVk4SdX1-XU3m7Jww2ACOyJ_CiSYhNp16CpsvXomVXibiMxD8_xWSmipQ",
+        "name": "Nft Enjoyer",
+        "profileIconId": 5408,
+        "revisionDate": 1676777161000,
+        "summonerLevel": 48,
+        "line": "supp",
+        "line_img": "/img/support_icon.webp"
+    }
+]
