@@ -28,9 +28,9 @@ export default function MatchesPage() {
         });
         const sortedmatches = matches.sort((a, b) => b.info.gameCreation - a.info.gameCreation)
         setGames(sortedmatches);
-        setTimeout(() => {
-            setLoading(false)
-        }, 2000)
+        setLoading(false);
+        // setTimeout(() => {
+        // }, 2000)
     }
 
     useEffect(() => {
@@ -49,7 +49,7 @@ export default function MatchesPage() {
                         <div className="text-4xl uppercase">Historial de partidas</div>
                         {/* <Logo href={'/'} wd={120} h={120} /> */}
                     </div>
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                         <div className="flex flex-col items-center gap-1">
                             <div className="flex items-center gap-[1px] text-2xl font-bold">
                                 <span className="text-green-600">100</span>
@@ -60,7 +60,7 @@ export default function MatchesPage() {
                                 <span className="uppercase text-violet-500">{`${'80%'} winrate`}</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col gap-5 min-w-[62rem] mx-auto">
                         {games.map(game => (
                             <Collapsible key={Math.random().toFixed(6) * 100000} game={game} />
